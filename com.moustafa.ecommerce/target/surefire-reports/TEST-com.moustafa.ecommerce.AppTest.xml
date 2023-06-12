@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.moustafa.ecommerce.AppTest" time="0.248" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\resume\CSCI 430 (4)\com.moustafa.ecommerce\target\test-classes;C:\resume\CSCI 430 (4)\com.moustafa.ecommerce\target\classes;C:\Users\mosta\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mosta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mosta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\mosta\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mosta\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mosta\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\mosta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\mosta\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\mosta\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\mosta\AppData\Local\Temp\surefire13579056130071592032\surefirebooter15584006480244079843.jar C:\Users\mosta\AppData\Local\Temp\surefire13579056130071592032 2023-06-12T06-56-55_498-jvmRun1 surefire7733470584704845022tmp surefire_012974408949536662034tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\resume\CSCI 430 (4)\com.moustafa.ecommerce\target\test-classes;C:\resume\CSCI 430 (4)\com.moustafa.ecommerce\target\classes;C:\Users\mosta\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mosta\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mosta\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\mosta\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\mosta\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mosta\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\mosta\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\mosta\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mosta"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Users\mosta\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\resume\CSCI 430 (4)\com.moustafa.ecommerce"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mosta\AppData\Local\Temp\surefire13579056130071592032\surefirebooter15584006480244079843.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+7"/>
+    <property name="user.name" value="mosta"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.7+7"/>
+    <property name="localRepository" value="C:\Users\mosta\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\mosta\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\resume\CSCI 430 (4)\com.moustafa.ecommerce"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\mosta\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\mosta\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\Scripts;C;C:\msys64\mingw64\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\doxygen\bin;C:\Graphviz\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\mosta\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot\bin;C:\Users\mosta\AppData\Local\Microsoft\WindowsApps;C:\Users\mosta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mosta\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\mosta\AppData\Local\GitHubDesktop\bin;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.7+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="productIdSynchFromDifferentSuppliers" classname="com.moustafa.ecommerce.AppTest" time="0.047"/>
+  <testcase name="warehouseAcceptShipmentOfExistingProduct" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="supplierNotFound" classname="com.moustafa.ecommerce.AppTest" time="0.004"/>
+  <testcase name="multipleSupplierProductsIdSynchronize" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientOrderHistoryCheck" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientMakesOrderTest" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="productCountsAsOne" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="supplierListIsSorted" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="clientFound" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="supplierListCreated" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="ProductIsRemoved" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientListCreated" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientMakesOrderWithMultipleProductsTest" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="productIdDoesNotExistInDifferentSupplier" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientIsCreated" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientIsRemoved" classname="com.moustafa.ecommerce.AppTest" time="0.002"/>
+  <testcase name="productIsCreated" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="productFound" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="SupplierIsRemoved" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="supplierQuantityUpdatesAfterShipmentTest" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="supplierCountsAsOne" classname="com.moustafa.ecommerce.AppTest" time="0.002"/>
+  <testcase name="productListIsSorted" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="supplierIsCreated" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientCountsAsOne" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientListIsSorted" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="supplierShipmentHistoryTest" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="clientNotFound" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="productNotFound" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="warehouseAcceptsShipmentOfNewProduct" classname="com.moustafa.ecommerce.AppTest" time="0"/>
+  <testcase name="warehouseQuantityUpdatesAfterOrderTest" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="warehouseRemoveProductAfterSupplierTest" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="productListCreated" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+  <testcase name="supplierFound" classname="com.moustafa.ecommerce.AppTest" time="0.001"/>
+</testsuite>
