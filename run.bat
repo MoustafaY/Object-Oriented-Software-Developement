@@ -1,0 +1,1 @@
+java -cp ecommerceSim.jar com.moustafa.ecommerce.App
