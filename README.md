@@ -39,5 +39,8 @@ The manager's responsibilities are:
 ## How does the program work
 The program prints several menus in a console, and uses numbers to represent each choice. Depending on these inputs several menus appear to navigate the user through the available options. Creating clients and suppliers is the first step of the process, logging in as a supplier allows the user to create products and make shipments for the client to order them later on. Clients and supplier have a printable receipt of their transactions and shipments to view.
 
+## How to run this program
+Download the .jar file named "ecommerceSim" and the .bat file named "run" in the same directory. Open the "run" file and a console will appear with the main menu of the project.
+
 ## What I learned from this project
 Abstraction would be what I learned from the most during this project. Now I can see more opportunities at minimizing repeated code and have a better understanding of abstract objects
